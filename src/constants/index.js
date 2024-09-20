@@ -15,7 +15,7 @@ import {
     git,
     figma,
     docker,
-    meta,
+    relevance_lab_logo,
     mastercard,
     shopify,
     carrent,
@@ -130,7 +130,7 @@ import {
     {
       title: "Software Engineer",
       company_name: "Relevancelab",
-      icon: meta,
+      icon: relevance_lab_logo,
       iconBg: "#E6DEDD",
       date: "Jan 2017 - Oct 2021",
       points: [

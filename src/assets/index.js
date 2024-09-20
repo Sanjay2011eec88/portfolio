@@ -27,6 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import mastercard from "./company/mastercard.png";
+import relevance_lab_logo from "./company/relevance_lab_logo.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -56,6 +57,7 @@ export {
   threejs,
   meta,
   mastercard,
+  relevance_lab_logo,
   shopify,
   starbucks,
   tesla,
