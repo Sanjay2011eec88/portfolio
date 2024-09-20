@@ -45,17 +45,9 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -96,16 +88,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -171,67 +155,74 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Puppetmaster",
+      description: "Account aggregator application, which can aggregate data from accounts from different FI.",
       tags: [
         {
-          name: "react",
+          name: "nodejs",
           color: "blue-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "green-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: carrent
+    },
+    
+    {
+      name: "Research Gateway",
+      description:
+        "A application which allows creating complex setup for machine learning very easy, buy providing minimal form and simple UI.",
+      tags: [
+        {
+          name: "angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "green-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
+          name: "aws",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: jobit,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "RLCatalyst",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "RLCatalyst is an end-to-end automation platform that helps enterprises adopt devops maturity and benefits.",
       tags: [
         {
-          name: "nextjs",
+          name: "angular",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "aws",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/RLOpenCatalyst/core",
     },
   ];
   
